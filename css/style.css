@@ -1,0 +1,121 @@
+*{
+    box-sizing: content-box;
+  }
+header{
+    background-color: #fbbc02;
+    border-top: solid black;
+    position: static;
+ 
+    
+   
+}
+header h2{
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin:0
+}
+
+a:link{
+    color:rgb(0, 0, 0)
+}
+a:visited{
+    color:rgb(0, 0, 0)
+}
+.flex1{
+    display: flex
+}
+.logo{
+    padding-left:70px;
+    padding-top: 25px;
+    width:200px;
+}
+.logo:hover{
+    width: 300px;
+}
+.opiniones{
+    margin-left:64%;
+    margin-top:1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+}
+.inicio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:2%;
+    margin-top:1%
+}
+.registro{
+    margin-left:65%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:1%
+}
+.ingreso{
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:1%
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    text-decoration: underline;
+}
+.ofertas {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ofertas .card {
+    
+    height: 350px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.detalle .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8px;
+}
+
+.detalle .btn {
+    width: 100px;
+    height: 30px;
+    background-color: #3483fa;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card .btn:hover{
+  font-size:16px;
+}
+
+.col{
+    border-left: solid 1px;
+    
+}
+footer{
+    margin-right:1%
+}
+

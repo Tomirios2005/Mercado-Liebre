@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    background-color:#fbbc02;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+   width: 100%;
+   background-color: white;
+   padding:10% 10%;
+   border-radius: 7px;
+}
+img{
+    width: 70%;
+    padding-left:15%;
+}
+form div {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.boton{
+    background-color: purple;
+    width: 50%;
+    font-size: 120%;
+}
